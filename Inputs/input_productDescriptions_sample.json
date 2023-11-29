@@ -1,0 +1,36 @@
+{
+	"connection_key": "request",
+	"result": true,
+	"redis_key": "abcdefg",
+	"filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+	"api_status_code": 200,
+	"runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+	"business_partner": 201,
+	"service_label": "PRODUCT_MASTER",
+	"api_type": "reads",
+	"ProductMasters": [
+		{
+			"Product": "A3750",
+			"ProductDescription": [
+				{
+					"Language": "JA",
+					"IsMarkedForDeletion": false
+				}
+			]
+		},
+		{
+			"Product": "A3751",
+			"ProductDescription": [
+				{
+					"Language": "JA",
+					"IsMarkedForDeletion": false
+				}
+			]
+		}
+	],
+	"api_schema": "DPFMProductMasterReads",
+	"accepter": [
+		"ProductDescriptions"
+	],
+	"deleted": false
+}

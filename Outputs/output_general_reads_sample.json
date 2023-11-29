@@ -1,0 +1,102 @@
+{
+    "connection_key": "request",
+    "result": true,
+    "redis_key": "abcdefg",
+    "filepath": "/var/lib/aion/Data/rededge_sdc/abcdef.json",
+    "api_status_code": 200,
+    "runtime_session_id": "boi9ar543dg91ipdnspi099u231280ab0v8af0ew",
+    "business_partner": 101,
+    "service_label": "PRODUCT_MASTER",
+    "api_type": "",
+    "message": {
+        "General": null,
+        "BusinessPartner": null,
+        "Allergen": null,
+        "NutritionalInfo": null,
+        "Calories": null,
+        "BPPlant": null,
+        "StorageLocation": null,
+        "MRPArea": null,
+        "WorkScheduling": null,
+        "Accounting": null,
+        "ProductDescription": null,
+        "ProductDescByBP": null,
+        "Tax": null,
+        "GeneralsByBP": null,
+        "ProductDescsByBP": [
+            {
+                "Product": "A3750",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "ランチパックたまご"
+            },
+            {
+                "Product": "A3751",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "ランチパックツナマヨネーズ"
+            },
+            {
+                "Product": "A4824",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "ダブルソフト"
+            },
+            {
+                "Product": "A4906",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "まるごとバナナ"
+            },
+            {
+                "Product": "B143",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "手巻おにぎり熟成紅鮭"
+            },
+            {
+                "Product": "B144",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "手巻おにぎり追い鰹製法おかか"
+            },
+            {
+                "Product": "E514",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "烏龍茶"
+            },
+            {
+                "Product": "E6205",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "緑茶"
+            },
+            {
+                "Product": "I3921",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "アルフォートミニチョコレート"
+            },
+            {
+                "Product": "W999",
+                "BusinessPartner": 101,
+                "Language": "JA",
+                "ProductDescription": "からあげクン"
+            }
+        ]
+    },
+    "api_schema": "DPFMProductMasterReads",
+    "accepter": [
+        "ProductDescsByBP"
+    ],
+    "deleted": false,
+    "sql_update_result": null,
+    "sql_update_error": "",
+    "subfunc_result": null,
+    "subfunc_error": "",
+    "exconf_result": null,
+    "exconf_error": "",
+    "api_processing_result": true,
+    "api_processing_error": ""
+}
