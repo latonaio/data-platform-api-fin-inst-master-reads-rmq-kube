@@ -71,7 +71,7 @@ func (c *DPFMAPICaller) General(
 
 	rows, err := c.db.Query(
 		`SELECT *
-		FROM DataPlatformMastersAndTransactionsMysqlKube.data_platform_price_master_price_master_data
+		FROM DataPlatformMastersAndTransactionsMysqlKube.data_platform_fin_inst_master_general_data
 		WHERE (
 			FinInstCountry,
 		    FinInstCode,

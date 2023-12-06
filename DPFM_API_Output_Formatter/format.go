@@ -1,7 +1,7 @@
 package dpfm_api_output_formatter
 
 import (
-	"data-platform-api-product-master-reads-rmq-kube/DPFM_API_Caller/requests"
+	"data-platform-api-fin-inst-master-reads-rmq-kube/DPFM_API_Caller/requests"
 	"database/sql"
 	"fmt"
 )
